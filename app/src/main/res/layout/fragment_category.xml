@@ -1,0 +1,293 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vaibhav.booksearch.Category">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btnPoetry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:text="Poetry"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/btnAdventure"
+            android:layout_toStartOf="@+id/btnAdventure"
+            android:layout_marginRight="19dp"
+            android:layout_marginEnd="19dp" />
+
+        <Button
+            android:id="@+id/btnAdventure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btnPoetry"
+            android:layout_alignBottom="@+id/btnPoetry"
+            android:layout_toLeftOf="@+id/btnScienceFiction"
+            android:layout_toStartOf="@+id/btnScienceFiction"
+            android:text="Adventure" />
+
+        <Button
+            android:id="@+id/btnWoman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btnAdventure"
+            android:layout_alignBottom="@+id/btnAdventure"
+            android:layout_alignEnd="@+id/btnScienceFiction"
+            android:layout_alignRight="@+id/btnScienceFiction"
+            android:layout_marginEnd="20dp"
+            android:text="Woman" />
+
+        <Button
+            android:id="@+id/btnLove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnPoetry"
+            android:layout_alignStart="@+id/btnPoetry"
+            android:layout_below="@+id/btnPoetry"
+            android:layout_marginTop="14dp"
+            android:text="Love" />
+
+        <Button
+            android:id="@+id/btnHumor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnDetective"
+            android:layout_alignLeft="@+id/btnTravel"
+            android:layout_alignStart="@+id/btnTravel"
+            android:text="Humor" />
+
+        <Button
+            android:id="@+id/btnScienceFiction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/btnHumor"
+            android:layout_marginEnd="14dp"
+            android:layout_marginRight="14dp"
+            android:text="Science Fiction" />
+
+        <Button
+            android:id="@+id/btnDetective"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnLove"
+            android:layout_alignStart="@+id/btnLove"
+            android:layout_below="@+id/btnLove"
+            android:layout_marginTop="16dp"
+            android:text="Detective" />
+
+        <Button
+            android:id="@+id/btnTravel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Travel"
+            android:layout_alignBaseline="@+id/btnMusic"
+            android:layout_alignBottom="@+id/btnMusic"
+            android:layout_alignLeft="@+id/btnAdventure"
+            android:layout_alignStart="@+id/btnAdventure" />
+
+        <Button
+            android:id="@+id/btnReligion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Religion"
+            android:layout_alignBaseline="@+id/btnTravel"
+            android:layout_alignBottom="@+id/btnTravel"
+            android:layout_alignLeft="@+id/btnVoyages"
+            android:layout_alignStart="@+id/btnVoyages" />
+
+        <Button
+            android:id="@+id/btnPolitics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnHumor"
+            android:layout_alignStart="@+id/btnHumor"
+            android:layout_alignTop="@+id/btnDetective"
+            android:text="Politics" />
+
+        <Button
+            android:id="@+id/btnIndia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnScienceFiction"
+            android:layout_alignStart="@+id/btnScienceFiction"
+            android:layout_alignTop="@+id/btnPolitics"
+            android:text="India" />
+
+        <Button
+            android:id="@+id/btnShortStudies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnDetective"
+            android:layout_alignStart="@+id/btnDetective"
+            android:layout_below="@+id/btnDetective"
+            android:layout_marginTop="14dp"
+            android:text="Short Stories" />
+
+        <Button
+            android:id="@+id/btnFantasy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/btnShortStudies"
+            android:layout_toLeftOf="@+id/btnWoman"
+            android:layout_toStartOf="@+id/btnWoman"
+            android:text="Fantasy" />
+
+        <Button
+            android:id="@+id/btnCrime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btnFantasy"
+            android:layout_alignEnd="@+id/btnScienceFiction"
+            android:layout_alignRight="@+id/btnScienceFiction"
+            android:text="Crime" />
+
+        <Button
+            android:id="@+id/btnWestern"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Western Stories"
+            android:layout_below="@+id/btnShortStudies"
+            android:layout_alignLeft="@+id/btnShortStudies"
+            android:layout_alignStart="@+id/btnShortStudies" />
+
+        <Button
+            android:id="@+id/btnComedy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btnWestern"
+            android:layout_alignBottom="@+id/btnWestern"
+            android:layout_alignLeft="@+id/btnFantasy"
+            android:layout_alignStart="@+id/btnFantasy"
+            android:text="Comedies" />
+
+        <Button
+            android:id="@+id/btnFiction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btnComedy"
+            android:layout_alignBottom="@+id/btnComedy"
+            android:layout_alignLeft="@+id/btnCrime"
+            android:layout_alignStart="@+id/btnCrime"
+            android:text="Fiction" />
+
+        <Button
+            android:id="@+id/btnLoadMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/btnWestern"
+            android:layout_marginTop="17dp"
+            android:layout_toEndOf="@+id/btnShortStudies"
+            android:layout_toRightOf="@+id/btnShortStudies"
+            android:background="@color/colorPrimary"
+            android:text="Load More" />
+
+        <Button
+            android:id="@+id/btnFriendship"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnLoadMore"
+            android:text="Friendship"
+            android:layout_alignLeft="@+id/btnWestern"
+            android:layout_alignStart="@+id/btnWestern"
+            android:layout_toLeftOf="@+id/btnGirls"
+            android:layout_toStartOf="@+id/btnGirls" />
+
+        <Button
+            android:id="@+id/btnGirls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Girls"
+            android:layout_below="@+id/btnLoadMore"
+            android:layout_alignRight="@+id/btnLoadMore"
+            android:layout_alignEnd="@+id/btnLoadMore" />
+
+        <Button
+            android:id="@+id/btnAnimals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnLoadMore"
+            android:layout_toEndOf="@+id/btnFantasy"
+            android:layout_toRightOf="@+id/btnFantasy"
+            android:text="Animals" />
+
+        <Button
+            android:id="@+id/btnLiterature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Literature"
+            android:layout_marginTop="13dp"
+            android:layout_below="@+id/btnFriendship"
+            android:layout_alignLeft="@+id/btnFriendship"
+            android:layout_alignStart="@+id/btnFriendship" />
+
+        <Button
+            android:id="@+id/btnHorror"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/btnLiterature"
+            android:layout_centerHorizontal="true"
+            android:text="Horror" />
+
+        <Button
+            android:id="@+id/btnDiscovery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btnHorror"
+            android:layout_toEndOf="@+id/btnLoadMore"
+            android:layout_toRightOf="@+id/btnLoadMore"
+            android:text="Discovery and explorer" />
+
+        <Button
+            android:id="@+id/btnSchools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Schools"
+            android:layout_below="@+id/btnLiterature"
+            android:layout_alignLeft="@+id/btnMusic"
+            android:layout_alignStart="@+id/btnMusic"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnEssays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnTravel"
+            android:layout_alignStart="@+id/btnTravel"
+            android:layout_alignTop="@+id/btnSchools"
+            android:text="Essays" />
+
+        <Button
+            android:id="@+id/btnVoyages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/btnEssays"
+            android:layout_toEndOf="@+id/btnHorror"
+            android:layout_toRightOf="@+id/btnHorror"
+            android:text="Voyages and Travel" />
+
+        <Button
+            android:id="@+id/btnMusic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music"
+            android:layout_below="@+id/btnVoyages"
+            android:layout_alignLeft="@+id/btnWestern"
+            android:layout_alignStart="@+id/btnWestern"
+            android:layout_marginTop="12dp" />
+    </RelativeLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+</FrameLayout>

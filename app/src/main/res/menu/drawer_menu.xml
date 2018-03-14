@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/id_home"
+            android:title="HOME"></item>
+        <item
+            android:id="@+id/id_wishlist"
+            android:title="WISHLIST"></item>
+        <item
+            android:id="@+id/id_settings"
+            android:title="SETTINGS"></item>
+    </group>
+    <item android:title="LIBRARY" android:checkable="false" >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:title="GO TO BOOK STORE"
+                    android:id="@+id/search_store">
+                </item>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="BOOK TYPE" android:checkable="false" >
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:title="RELEVANCE"
+                android:id="@+id/search_relevance">
+            </item>
+            <item
+                android:title="LATEST"
+                android:id="@+id/search_latest">
+            </item>
+            <item
+                android:title="BOOKS"
+                android:id="@+id/search_books">
+            </item>
+                <item
+                    android:title="MAGAZINE"
+                    android:id="@+id/search_magazine">
+                </item>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="CATEGORIES" android:checkable="false" >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:title="ADVENTURE"
+                    android:id="@+id/search_adventure">
+                </item>
+                <item
+                    android:title="HUMOR"
+                    android:id="@+id/search_humor">
+                </item>
+                <item
+                    android:title="LITERATURE"
+                    android:id="@+id/search_literature">
+                </item>
+                <item
+                    android:title="TECHNICAL"
+                    android:id="@+id/search_technical">
+                </item>
+                <item
+                    android:title="NATURE"
+                    android:id="@+id/search_nature">
+                </item>
+                <item
+                    android:title="------------------------------------------------------------">
+                </item>
+            </group>
+        </menu>
+    </item>
+
+</menu>
